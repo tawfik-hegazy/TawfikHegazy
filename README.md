@@ -53,3 +53,26 @@ Below is the live tracking of active hardware and software engineering modules. 
 ---
 
 ## 🛠️ The Tech Stack Grid
+
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Software** | `Angular` `Node.js` `Express.js` `JavaScript` `TypeScript` `C++` `OpenGL` |
+| **Data & Infosec** | `MongoDB` `Mongoose` `Subnetting` `Network Protocols` `Crypto Primitives` |
+| **Hardware / CAD** | `Arduino` `ESP32` `Autodesk Fusion 360` `UAV Telemetry` `RF Systems` |
+
+---
+
+## 📊 Live Git Telemetry
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=TawfikHegazy&show_icons=true&theme=tokyonight&count_private=true" alt="Tawfik's GitHub Stats" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TawfikHegazy&layout=compact&theme=tokyonight" alt="Top Languages" width="48%"/>
+</p>
+
+---
+
+## 📬 System Interconnect
+* **Current Status:** Engineering Computer Science & Information Systems infrastructure.
+* **Team Directive:** Actively deploying components with technical team **f(x) Robotics**.
+* **Core Philosophy:** *Isolate and optimize.* (Always let the triceps rest before hitting the back!)
+
+<p align="right">(<sub>System Dashboard V2.6.01 - End of Transmission</sub>)</p>
