@@ -1,0 +1,62 @@
+<svg width="860" height="220" viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #161b22; }
+      .track { fill: #21262d; }
+      .lbl  { font-family: 'Sora','Segoe UI',sans-serif; font-size: 12px; fill: #c9d1d9; }
+      .pct  { font-family: 'Space Mono',monospace; font-size: 11px; }
+
+      .bar-blue   { fill: url(#gBlue);  animation: growBar 1.4s cubic-bezier(.25,.8,.25,1) 0.1s both; transform-origin: left center; }
+      .bar-green  { fill: url(#gGreen); animation: growBar 1.4s cubic-bezier(.25,.8,.25,1) 0.2s both; transform-origin: left center; }
+      .bar-purple { fill: url(#gPurp);  animation: growBar 1.4s cubic-bezier(.25,.8,.25,1) 0.3s both; transform-origin: left center; }
+      .bar-amber  { fill: url(#gAmb);   animation: growBar 1.4s cubic-bezier(.25,.8,.25,1) 0.4s both; transform-origin: left center; }
+      .bar-red    { fill: url(#gRed);   animation: growBar 1.4s cubic-bezier(.25,.8,.25,1) 0.5s both; transform-origin: left center; }
+
+      @keyframes growBar {
+        from { transform: scaleX(0); }
+        to   { transform: scaleX(1); }
+      }
+
+      .title { font-family: 'Space Mono',monospace; font-size: 10px; fill: #3fb950; letter-spacing: 2px; }
+    </style>
+    <linearGradient id="gBlue"  x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1158a6"/><stop offset="100%" stop-color="#58a6ff"/></linearGradient>
+    <linearGradient id="gGreen" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1a7f37"/><stop offset="100%" stop-color="#3fb950"/></linearGradient>
+    <linearGradient id="gPurp"  x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6e40c9"/><stop offset="100%" stop-color="#bc8cff"/></linearGradient>
+    <linearGradient id="gAmb"   x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#9e6a03"/><stop offset="100%" stop-color="#d29922"/></linearGradient>
+    <linearGradient id="gRed"   x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#b62324"/><stop offset="100%" stop-color="#f85149"/></linearGradient>
+  </defs>
+
+  <rect width="860" height="220" rx="12" class="bg"/>
+  <rect x="0.5" y="0.5" width="859" height="219" rx="12" fill="none" stroke="#21262d" stroke-width="1"/>
+
+  <text x="32" y="32" class="title">TECHNICAL SKILLS</text>
+
+  <!-- Bar 1: MEAN Stack -->
+  <text x="32" y="58" class="lbl">MEAN Stack (Full-Stack Web)</text>
+  <text x="828" y="58" text-anchor="end" class="pct" fill="#58a6ff">90%</text>
+  <rect x="32" y="64" width="796" height="8" rx="4" class="track"/>
+  <rect x="32" y="64" width="716" height="8" rx="4" class="bar-blue"/>
+
+  <!-- Bar 2: C++ OpenGL -->
+  <text x="32" y="96" class="lbl">C++ / OpenGL / Low-Level Graphics</text>
+  <text x="828" y="96" text-anchor="end" class="pct" fill="#3fb950">80%</text>
+  <rect x="32" y="102" width="796" height="8" rx="4" class="track"/>
+  <rect x="32" y="102" width="637" height="8" rx="4" class="bar-green"/>
+
+  <!-- Bar 3: Embedded -->
+  <text x="32" y="134" class="lbl">Embedded Systems (Arduino / ESP32)</text>
+  <text x="828" y="134" text-anchor="end" class="pct" fill="#bc8cff">85%</text>
+  <rect x="32" y="140" width="796" height="8" rx="4" class="track"/>
+  <rect x="32" y="140" width="677" height="8" rx="4" class="bar-purple"/>
+
+  <!-- Bar 4: CAD -->
+  <text x="32" y="172" class="lbl">CAD — Autodesk Fusion 360</text>
+  <text x="828" y="172" text-anchor="end" class="pct" fill="#d29922">75%</text>
+  <rect x="32" y="178" width="796" height="8" rx="4" class="track"/>
+  <rect x="32" y="178" width="597" height="8" rx="4" class="bar-amber"/>
+
+  <!-- Bar 5: Networking -->
+  <text x="32" y="210" class="lbl">Networking &amp; Security (CompTIA N+/S+)</text>
+  <text x="828" y="210" text-anchor="end" class="pct" fill="#f85149">78%</text>
+  <!-- No bottom bar needed — SVG height ends here, track hidden -->
+</svg>

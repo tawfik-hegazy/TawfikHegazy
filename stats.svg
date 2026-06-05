@@ -1,0 +1,52 @@
+<svg width="860" height="110" viewBox="0 0 860 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #161b22; }
+      .border { fill: none; stroke: #21262d; stroke-width: 1; }
+      .num {
+        font-family: 'Space Mono', monospace;
+        font-size: 26px;
+        font-weight: 700;
+        fill: #58a6ff;
+        animation: popIn 0.5s cubic-bezier(.34,1.56,.64,1) both;
+      }
+      .num-gold { fill: #d29922; animation: popIn 0.5s cubic-bezier(.34,1.56,.64,1) 0.15s both; }
+      .num-green { fill: #3fb950; animation: popIn 0.5s cubic-bezier(.34,1.56,.64,1) 0.3s both; }
+      .num-pink  { fill: #bc8cff; animation: popIn 0.5s cubic-bezier(.34,1.56,.64,1) 0.45s both; }
+      .lbl {
+        font-family: 'Sora', 'Segoe UI', sans-serif;
+        font-size: 11px;
+        fill: #7d8590;
+      }
+      .divv { stroke: #21262d; stroke-width: 1; }
+      @keyframes popIn {
+        from { opacity:0; transform: scale(0.6); }
+        to   { opacity:1; transform: scale(1); }
+      }
+    </style>
+  </defs>
+
+  <rect width="860" height="110" rx="12" class="bg"/>
+  <rect width="859" height="109" x="0.5" y="0.5" rx="12" class="border"/>
+
+  <!-- dividers -->
+  <line x1="215" y1="15" x2="215" y2="95" class="divv"/>
+  <line x1="430" y1="15" x2="430" y2="95" class="divv"/>
+  <line x1="645" y1="15" x2="645" y2="95" class="divv"/>
+
+  <!-- Stat 1: Projects -->
+  <text x="107" y="62" text-anchor="middle" class="num">7</text>
+  <text x="107" y="84" text-anchor="middle" class="lbl">Projects Built</text>
+
+  <!-- Stat 2: F1 Place -->
+  <text x="322" y="62" text-anchor="middle" class="num num-gold">2nd</text>
+  <text x="322" y="84" text-anchor="middle" class="lbl">F1 Competition Place 🏎️</text>
+
+  <!-- Stat 3: NTI Hours -->
+  <text x="537" y="62" text-anchor="middle" class="num num-green">90h</text>
+  <text x="537" y="84" text-anchor="middle" class="lbl">NTI Internship Hours</text>
+
+  <!-- Stat 4: Flawless flights -->
+  <text x="752" y="62" text-anchor="middle" class="num num-pink">1</text>
+  <text x="752" y="84" text-anchor="middle" class="lbl">Flawless UAV First Flight ✈️</text>
+</svg>
